@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stack_queue", "stack_queue\stack_queue.vcxproj", "{F49C77DE-011C-4515-AFB1-F13630BD5AD6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_stack", "stack_queue\stack_queue.vcxproj", "{F49C77DE-011C-4515-AFB1-F13630BD5AD6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_queue", "02_queue\02_queue.vcxproj", "{B7148BD0-2776-45D0-84A8-CD773890E483}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_circular_queue", "03_circular_queue\03_circular_queue.vcxproj", "{AF684C5F-7B3E-4095-90F2-8C299815A284}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,22 @@ Global
 		{F49C77DE-011C-4515-AFB1-F13630BD5AD6}.Release|x64.Build.0 = Release|x64
 		{F49C77DE-011C-4515-AFB1-F13630BD5AD6}.Release|x86.ActiveCfg = Release|Win32
 		{F49C77DE-011C-4515-AFB1-F13630BD5AD6}.Release|x86.Build.0 = Release|Win32
+		{B7148BD0-2776-45D0-84A8-CD773890E483}.Debug|x64.ActiveCfg = Debug|x64
+		{B7148BD0-2776-45D0-84A8-CD773890E483}.Debug|x64.Build.0 = Debug|x64
+		{B7148BD0-2776-45D0-84A8-CD773890E483}.Debug|x86.ActiveCfg = Debug|Win32
+		{B7148BD0-2776-45D0-84A8-CD773890E483}.Debug|x86.Build.0 = Debug|Win32
+		{B7148BD0-2776-45D0-84A8-CD773890E483}.Release|x64.ActiveCfg = Release|x64
+		{B7148BD0-2776-45D0-84A8-CD773890E483}.Release|x64.Build.0 = Release|x64
+		{B7148BD0-2776-45D0-84A8-CD773890E483}.Release|x86.ActiveCfg = Release|Win32
+		{B7148BD0-2776-45D0-84A8-CD773890E483}.Release|x86.Build.0 = Release|Win32
+		{AF684C5F-7B3E-4095-90F2-8C299815A284}.Debug|x64.ActiveCfg = Debug|x64
+		{AF684C5F-7B3E-4095-90F2-8C299815A284}.Debug|x64.Build.0 = Debug|x64
+		{AF684C5F-7B3E-4095-90F2-8C299815A284}.Debug|x86.ActiveCfg = Debug|Win32
+		{AF684C5F-7B3E-4095-90F2-8C299815A284}.Debug|x86.Build.0 = Debug|Win32
+		{AF684C5F-7B3E-4095-90F2-8C299815A284}.Release|x64.ActiveCfg = Release|x64
+		{AF684C5F-7B3E-4095-90F2-8C299815A284}.Release|x64.Build.0 = Release|x64
+		{AF684C5F-7B3E-4095-90F2-8C299815A284}.Release|x86.ActiveCfg = Release|Win32
+		{AF684C5F-7B3E-4095-90F2-8C299815A284}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
